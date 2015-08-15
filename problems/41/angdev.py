@@ -19,6 +19,6 @@ def largest_pandigital_prime(digit):
     if is_prime(x):
       return x
 
-  return None
+  return 0
 
 print(max([largest_pandigital_prime(x) for x in range(1, 10)]))
